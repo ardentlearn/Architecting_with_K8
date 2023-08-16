@@ -1,0 +1,52 @@
+student-00-5aca8848b150@qwiklabs.net
+pEmw4TtbAkAT
+qwiklabs-gcp-01-23b7259d2a5f
+Raw Data
+By : Ashutosh S.Bhakare 
+============
+
+3  kubectl get pods -n kube-system
+    4  kubectl create ns cka
+    5  kubectl get ns
+    6  kubectl create deployment mydep1 --image=docker.io/httpd -n cka
+    7  kubectl get pods -n cka
+    8  kubectl get pods 
+    9  clar
+   10  clear
+   11  kubectl get pods 
+   12  kubectl get pods -n cka
+   13  kubectl describe pod mydep1-547fbb7bc8-lv2nj -n cka
+   14  kubectl get deployments -n cka
+   15  kubectl expose deployment mydep1 --port=80 -n cka
+   16  kubectl get svc -n cka
+   17  curl 10.111.73.128
+   18  kubectl describe svc mydep1 -n cka
+   19  kubectl get pods -n cka --show-labels
+   20  kubectl get pods -n cka -o wide
+   21  kubectl scale deployment mydep1 --replicas=3 -n cka
+   22  kubectl describe svc mydep1 -n cka
+   23  kubectl get pods -o wide
+   24  kubectl get pods -o wide -n cka
+   25  kubectl describe svc mydep1 -n cka
+   26  kubectl get svc -n cka
+   27  history 
+   28  kubectl get rs -n cka
+   29  kubectl get svc -n cka
+   30  kubectl describe svc mydep1 -n cka
+   31  curl 10.111.73.128
+   32  kubectl get pods 
+   33  kubectl logs mydep1-547fbb7bc8-2xsl5 -n cka
+   34  kubectl get events -n cka
+   35  kubectl get pods -n cka
+   36  kubectl exec -it m
+   37  kubectl exec -it mydep1-547fbb7bc8-2xsl5 -- /bin/bash
+   38  kubectl exec -it mydep1-547fbb7bc8-2xsl5 -- /bin/bash -n cka
+   39  kubectl get pods -n cka
+   40  kubectl exec -n cka -it mydep1-547fbb7bc8-2xsl5 -- /bin/bash 
+   41  clear
+   42  kubectl logs mydep1-547fbb7bc8-2xsl5 -n cka
+   43  kubectl logs mydep1-547fbb7bc8-2xsl5 -n cka --since=1m
+   44  kubectl get pods -n kube-system
+   45  kubectl describe pods canal-6f6p6 -n kube-system
+   46  kubectl logs -c calico-node canal-6f6p6 -n kube-system
+
